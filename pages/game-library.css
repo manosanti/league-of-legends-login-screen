@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --color-white: white;
+    --color-grey: #e8f0fe;
+    --color-grey-dark: #515151;
+    --color-blue: #0bc4e2;
+}
+
+*{
+    font-family: 'Lexend Deca', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+.games{
+    margin-left: 135px;
+    padding-bottom: 60px;
+}
+
+.card{
+    margin-left: 135px;
+    width: 24px;
+}
+
+h1{
+    color: #F0F0F0;
+}
