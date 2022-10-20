@@ -211,3 +211,22 @@ p{
 .valorant-2:hover{
     box-shadow: 0 0 20px 10px #507F7F;
 }
+
+/* Arcane */
+
+.games-3{ 
+    padding-bottom: 60px;
+    background: #141212;
+}
+
+.games-3-img{
+    cursor: pointer;
+    margin-left: 135px;
+    width: 40vw;
+    border-radius: 1rem;
+    justify-items: center;
+}
+
+.events{
+    margin-bottom: 20rem;
+}
