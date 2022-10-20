@@ -13,30 +13,55 @@
     padding: 0;
 }
 
-body{
-    background-color: #1C1C1C;
+/* navlinks */
+.navlink{
+    height: 80px;
+    background-color: #000;
 }
 
-.games{
+h2{
+    color: #F0F0F0;
+    text-align: center;
+}
+
+/* navlink end */
+
+.full-games{
+    background-color: #1C1C1C;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #141212;
+}
+
+h1{
+    color: #F0F0F0;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+p{
+    color: #F0F0F0;
+}
+
+.games{ 
     margin-left: 135px;
     padding-bottom: 60px;
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 
 .all-of-cards{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+    padding-bottom: 10rem;
 }
 
 .cards{
     display: flexbox;
     margin-left: 135px;
     margin-right: -150px;
-}
-
-.image-card{
-    display: flex;
 }
 
 .game-title{
@@ -55,13 +80,134 @@ body{
     margin-right: 20px;
 }
 
-img{
+.lol{
     cursor: pointer;
     border-radius: 1rem;
     width: 24rem;
     margin-right: 50px;
+    transition: 0.5s;
 }
 
-h1,p{
+.lol:hover{
+    box-shadow: 0 0 20px 10px #074175;
+}
+
+.tft{
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 24rem;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.tft:hover{
+    box-shadow: 0 0 20px 10px #FCAB3F;
+}
+
+
+
+/* ALL OF GAMES 2 */
+
+.my-games-h1{
+    margin-left: 135px;
     color: #F0F0F0;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.games-2{ 
+    padding-bottom: 60px;
+    padding-top: 10rem;
+    background: #141212;
+}
+
+.all-of-cards-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 10rem;
+    background: #141212;
+}
+
+.cards-2{
+    display: flexbox;
+    margin-left: 135px;
+    margin-right: -150px;
+    margin-bottom: 40px;
+}
+
+.game-title-2{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.p-game-2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.icon-game-2{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.lol-2{
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 24rem;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.lol-2:hover{
+    box-shadow: 0 0 20px 10px #074175;
+}
+
+.tft-2{
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 24rem;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.tft-2:hover{
+    box-shadow: 0 0 20px 10px #FCAB3F;
+}
+/*  */
+.wildrift-2{
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 24rem;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.wildrift-2:hover{
+    box-shadow: 0 0 20px 10px #0092FA;
+}
+
+.runeterra-2{
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 24rem;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.runeterra-2:hover{
+    box-shadow: 0 0 20px 10px #A5CAEE;
+}
+
+.valorant-2{
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 24rem;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.valorant-2:hover{
+    box-shadow: 0 0 20px 10px #507F7F;
 }
